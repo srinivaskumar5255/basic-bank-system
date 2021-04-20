@@ -30,7 +30,7 @@ body{ background-image:url("https://image.freepik.com/free-vector/3d-perspective
                 <th class="text-center">Sender</th>
                 <th class="text-center">Receiver</th>
                 <th class="text-center">Amount</th>
-                <th class="text-center">Date & Time</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -51,7 +51,7 @@ body{ background-image:url("https://image.freepik.com/free-vector/3d-perspective
             <td class="py-2"><?php echo $rows['sender']; ?></td>
             <td class="py-2"><?php echo $rows['receiver']; ?></td>
             <td class="py-2"><?php echo $rows['balance']; ?> </td>
-            <td class="py-2"><?php echo $rows['datetime']; ?> </td>
+            
                 
         <?php
             }
